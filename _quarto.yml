@@ -48,7 +48,7 @@ website:
     image: "/files/profiles/twitter-card-large.png"
     card-style: summary_large_image
     creator: "@andrewheiss"
-    site: "@brend.bird"
+    site: "@"
 
   open-graph: 
     image: "/files/profiles/twitter-card-large.png"
@@ -64,11 +64,11 @@ website:
 #        href: "cv/index.qmd"
       - text: "Blog"
         file: blog/index.qmd
-      - text: "Proyectos de Investigación"
-        file: PROYECTOS/index.qmd
+      - text: "Proyectos"
+        file: research/index.qmd
       - text: "PHD TESIS"
-        href: "PHD/index.qmd"
-      - text: "Otros"
+        href: "teaching/index.qmd"
+      - text: "CONFERENCIAS"
         href: "talks/index.qmd"
 #      - text: "Now"
 #        href: now/index.qmd
