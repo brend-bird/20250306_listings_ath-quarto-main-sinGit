@@ -1,0 +1,153 @@
+project:
+  type: website
+
+  preview: 
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!etc/"
+    - "!cv/"
+    - "!now/"
+    - "!uses/"
+
+  resources:
+    - "files/**"
+    - "etc/**"
+
+    # Things that need to be at the site root
+    - ".htaccess"
+    - "LiveSearchSiteAuth.xml"
+    - "keybase.txt"
+    - "y_key_31e0c4105fc75710.html"
+    - "pgp_ath.asc.txt"
+
+freeze: true
+
+bibliography: files/bib/references.bib
+csl: files/bib/chicago-author-date.csl
+
+# Metadata stuff
+pagetitle: "{{< meta title >}} | Brenda Durand Ordiales"
+author-meta: "Brenda Durand Ordiales"
+
+website:
+  title: "Brenda Durand Ordiales"
+  description: "Soy estudiante de PHD del departamento de agrobiología ambiental."
+  favicon: "/files/favicon-512.png"
+  site-url: "https://www.brendadurandordiales.com"
+  repo-url: "https://github.com/andrewheiss/ath-quarto"
+
+  google-analytics: "UA-527449-5"
+
+  twitter-card: 
+    image: "/files/profiles/twitter-card-large.png"
+    card-style: summary_large_image
+    creator: "@andrewheiss"
+    site: "@brend.bird"
+
+  open-graph: 
+    image: "/files/profiles/twitter-card-large.png"
+    locale: en_US
+  
+  navbar:
+    pinned: true
+
+    left:
+#      - text: "About"
+#        href: "index.qmd"
+#      - text: "CV"
+#        href: "cv/index.qmd"
+      - text: "Blog"
+        file: blog/index.qmd
+      - text: "Proyectos de Investigación"
+        file: PROYECTOS/index.qmd
+      - text: "PHD TESIS"
+        href: "PHD/index.qmd"
+      - text: "Otros"
+        href: "talks/index.qmd"
+#      - text: "Now"
+#        href: now/index.qmd
+#      - text: "Uses"
+#        file: uses/index.qmd
+    
+    right:
+#      - text: "{{< iconify bi rss size=1.1em title='RSS' >}}"
+#        href: atom.xml
+#      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
+#        href: "mailto:aheiss@gsu.edu"
+#      - text: "{{< iconify ph butterfly-bold size=1.2em title='Bluesky' >}}"
+#        href: https://bsky.app/profile/andrew.heiss.phd
+#        rel: me
+#      - text: "{{< iconify bi mastodon size=1.1em title='Mastodon' >}}"
+#        href: https://fediscience.org/users/andrew/
+#        rel: me
+#      - text: "{{< iconify bi threads size=1em title='Threads' >}}"
+#        href: https://www.threads.net/%40andrewheiss
+#        rel: me
+      - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
+        href: https://github.com/andrewheiss
+        rel: me
+#      - text: "{{< iconify bi youtube size=1.1em title='YouTube' >}}"
+#        href: https://www.youtube.com/andrewheiss
+#        rel: me
+#      - text: "{{< iconify fa6-brands blogger size=1.15em title='Blogger' >}}"
+#        href: https://www.heissatopia.com/
+#      - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
+#        href: https://www.linkedin.com/in/andrewheiss
+#        rel: me
+  
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Andrew Heiss</span>
+      <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>      
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+      <span class="faux-block">{{< fa key >}} [PGP public key]({{< var pgp.key >}}) &emsp; {{< fa fingerprint >}} Fingerprint:</strong><br><span class="fingerprint">{{< var pgp.fingerprint >}}</span></span>
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
+
+format:
+  html:
+    theme: 
+      - html/ath.scss
+#      - html/cerulean.scss
+#      - html/cosmo.scss
+#      - html/cyborg.scss
+#      - html/darkly.scss
+#      - html/flatly.scss
+#      - html/journal.scss
+#      - html/litera.scss
+#      - html/lumen.scss
+#      - html/lux.scss
+#      - html/materia.scss
+#      - html/minty.scss
+#      - html/morph.scss
+#      - html/pulse.scss
+#      - html/quartz.scss
+#      - html/sandstone.scss
+#      - html/simplex.scss
+#      - html/sketchy.scss
+#      - html/slate.scss
+#      - html/solar.scss
+#      - html/spacelab.scss
+#      - html/superhero.scss
+#      - html/united.scss
+#      - html/vapor.scss
+#      - html/yeti.scss
+#      - html/zephyr.scss
+#      - custom_style.css
+    grid: 
+      body-width: 900px
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai

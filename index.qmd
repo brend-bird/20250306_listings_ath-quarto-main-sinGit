@@ -1,0 +1,59 @@
+---
+title: "Hola a todos"
+pagetitle: "hacking..."
+description-meta: "Soy una ingeniera ambiental, estudiante de PHD del departamento de Agrobiolgía ambiental"
+main-photo: /files/profiles/BRENDA.jpeg
+main-photo-square: /files/profiles/BRENDA.jpeg
+title-block-banner: "#00BCA1"
+format:
+  html:
+    quarto-template-params:
+      banner-header-class: "home"
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-4}
+
+```{=html}
+<div class="grid" style="--bs-columns: 5; row-gap: 0;">
+  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-3 g-col-sm-5">
+    <picture>
+      <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
+      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
+      <img class="img-fluid" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}">
+    </picture>
+  </div>
+  <div class="g-col-1 g-col-sm-0"></div>
+</div>
+```
+
+:::
+
+::: {.g-col-12 .g-col-sm-8}
+
+Soy ingeniera ambiental, estudiante de PHD del departamento de Agrobiología ambiental en la [UPV/EHU](https://www.ehu.eus/es/). Máster en biodiversidad, Medio Ambiente y Funcionamiento de Ecosistemas. Máster en Medio Ambiente y ODS
+
+TÉCNICO DE RESIDUOS URBANOS
+[ZABALGARBI](http://www.zabalgarbi.com/es/) - 
+Alonsotegui (09/2023-09/2024)- 1 año
+
+Contacto con clientes para la gestión y tratamiento de residuos. Elaboración de informes en PowerBi. Manejo de la Plataforma eSIR y tramitación de documentación de traslado de residuos.
+
+
+CONSULTOR JUNIOR GESTIÓN DE RESIDUOS ALIMENTARIOS:
+[CIMAS](https://www.cimas.es/). -
+(01/2022- 08/2022)-8 meses
+
+Análisis de pliegos de ofertas de gestión de residuos sólidos de ayuntamientos de Bizkaia. Mejora del Plan integral de Gestión de Residuos de  Uribe Kosta.
+
+
+CONSULTOR JUNIOR DE ECONOMÍA CIRCULAR:
+[Belako Lanak](https://www.belakolanak.es/) , Mungia. 
+(06/2021-11/2021) - 6 meses
+
+Cálculo de la huella ambiental del servicio de podas y talas de la empresa, se calculó la Huella de Carbono y Huella Hídrica.
+:::
+
+:::

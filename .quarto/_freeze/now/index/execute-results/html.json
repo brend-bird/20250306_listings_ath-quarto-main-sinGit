@@ -1,0 +1,15 @@
+{
+  "hash": "b1debbbefa275fdfdd6c51606a9a4e3a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: What I'm doing now\ndate: 2024-09-30\ndescription: Andrew Heiss is working on a bunch of exciting and groundbreaking projects\npublished-title: Last updated\ntitle-block-banner: \"#771C6D\"\ntoc: false\nengine: knitr\nfreeze: false\n---\n\n::: {.cell}\n<style type=\"text/css\">\n#title-block-header .description {\n    display: none;\n}\n</style>\n:::\n\n\n\n\nAs of September 30, 2024, I'm spending all my time on these things:\n\n- Staying at home pretty much 24/7 (STILL) because of the COVID-19 pandemic\n- Raising 6 kids (17, 14.5, 12, 9, 6.5, and 2.5) and trying to stay sane ([family blog](http://www.heissatopia.com/))\n- Living in Atlanta and working as an assistant professor in the [Department of Public Management and Policy](https://aysps.gsu.edu/public-management-policy/) at the [Andrew Young School of Policy Studies](https://aysps.gsu.edu/) at [Georgia State University](https://www.gsu.edu/)\n- Teaching [data visualization](https://datavizf24.classes.andrewheiss.com/), [program evaluation](https://evalsp24.classes.andrewheiss.com/), [comparative public administration](https://compaf24.classes.andrewheiss.com/),  [nonprofit management](https://nonprofitf22.classes.andrewheiss.com), and [microeconomics](https://econs24.classes.andrewheiss.com/) at the [Andrew Young School of Policy Studies](https://aysps.gsu.edu/) at [Georgia State University](https://www.gsu.edu/)\n- Working as a part time data science mentor for [Posit Academy](https://posit.co/products/enterprise/academy/)\n- Converting my dissertation into multiple articles and sending them out to journals + continuing [my research on authoritarianism and international NGOs](https://www.ingoresearch.org/)\n- Working on several articles on NGO restrictions with [Suparna Chaudhry](http://www.suparnachaudhry.com/) and [Marc Dotson](https://marriottschool.byu.edu/directory/details?id=50683)\n- Reading some sort of religiously themed text every day ([books](https://www.goodreads.com/review/list/2733632-andrew-heiss?shelf=religious))\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
