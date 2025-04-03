@@ -25,7 +25,7 @@
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "My research spans public policy, nonprofit management, political science, and international relations. I study human rights and international nonprofit management and I focus on authoritarian regulation of civil society and international NGO responses to administrative crackdown. I also research causal inference methods, particularly using panel data."
+    "text": "Mi tesis se trata sobre el desarrollo de modelos de machine learning para el monitoreo de la salud de las encinas, abordando el problema del declive de estos árboles en las dehesas mediterráneas, un ecosistema de alto valor ecológico y socioeconómico. El objetivo principal es establecer un sistema de alerta temprana que permita detectar signos de deterioro antes de que sean visualmente evidentes o en etapas tempranas, facilitando la implementación de medidas preventivas y de gestión adaptativa. La tesis se fundamenta en la evidencia científica que identifica marcadores fisiológicos y bioquímicos como indicadores precoces de estrés en las encinas. Estos incluyen variaciones en los compuestos fotoprotectores foliares, como los pigmentos del ciclo de la violaxantina (VAZ) y los tocoferoles totales (t-Toc), así como alteraciones en la eficiencia fotoquímica evaluada mediante parámetros de fluorescencia de la clorofila a (e.g., PiAbs, ϕPo). Además, la cuantificación de la defoliación de la copa, tanto mediante métodos visuales como basados en imágenes, proporciona una métrica directa del estado de salud del árbol. Tu investigación podría integrar datos sobre estos marcadores tempranos de estrés, junto con información sobre las condiciones ambientales de las dehesas (clima, suelo) y potencialmente datos relacionados con la comunidad microbiana del suelo y los procesos biogeoquímicos asociados al declive (desnitrificación, movilización de fósforo, etc.). Al aplicar algoritmos de machine learning, la tesis busca identificar patrones complejos y relaciones no lineales entre estas variables y el estado de salud de las encinas. Se espera que los modelos desarrollados permitan predecir la probabilidad de declive en encinas individuales o en áreas específicas de la dehesa, basándose en la detección temprana de cambios sutiles en los indicadores de salud. Esto podría ser crucial para optimizar las estrategias de manejo forestal, como la aplicación de tratamientos específicos o la modificación de las prácticas de uso del suelo, con el fin de mitigar los efectos del estrés y prevenir la progresión del declive en estos importantes ecosistemas. La capacidad de monitorear la salud de las encinas de manera eficiente y a gran escala mediante técnicas de machine learning representa una innovación significativa en la gestión de las dehesas y la conservación de las encinas."
   },
   {
     "objectID": "research/index.html#journal-articles",
@@ -124,5 +124,19 @@
     "title": "Talks",
     "section": "2021",
     "text": "2021"
+  },
+  {
+    "objectID": "research/index.html#investigación",
+    "href": "research/index.html#investigación",
+    "title": "Research",
+    "section": "Investigación",
+    "text": "Investigación\n:::\n:::"
+  },
+  {
+    "objectID": "research/index.html#codigo-de-google-colab-caso-1",
+    "href": "research/index.html#codigo-de-google-colab-caso-1",
+    "title": "Research",
+    "section": "CODIGO DE GOOGLE COLAB: CASO 1",
+    "text": "CODIGO DE GOOGLE COLAB: CASO 1\n:::codigo: /files_Python (1).ipynb :::"
   }
 ]
