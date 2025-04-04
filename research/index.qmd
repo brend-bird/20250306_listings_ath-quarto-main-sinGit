@@ -51,12 +51,7 @@ Se espera que los modelos desarrollados permitan predecir la probabilidad de dec
 ## CODIGO DE GOOGLE COLAB: CASO 1
 
 
-#### **Opción 2: Usar `!include` (YAML)**
-Agrega esto al inicio de `_index.qmd`:
-```yaml
----
-include: Brenda_Python (1).qmd
----
+:::<iframe src="https://drive.google.com/file/d/1WADOX9s_0NmRS_8ycgo_xWtMk-n12mnD/view?usp=sharing" width="800" height="600"></iframe>
 
 ## Book chapters
 
